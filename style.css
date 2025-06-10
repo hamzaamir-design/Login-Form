@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #040117;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-Box {
+    width: 320px;
+    height: 420px;
+    background-color: #fff;
+}
+
+.title {
+    width: 100%;
+    height: 150px;
+    background-color: #040171;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    text-align: center;
+    line-height: 150px;
+}
+
+.title h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.form-box {
+    padding: 10px;
+    text-align: center;
+}
+
+.form-box input[type="text"],
+input[type="password"] {
+    border: 0;
+    outline: 0;
+    background-color: none;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid #040171;
+    width: 200px;
+    padding: 10px;
+    color: #040171;
+    border-radius: 25px;
+    transition: 0.5s ease;
+    font-size: 14px;
+}
+
+.form-box input[type="text"]:focus,
+input[type="password"]:focus {
+    width: 220px;
+    border-color: #040171;
+}
+::placeholder{
+    color: #040171;
+}
+.form-btn{
+    width: 100px;
+    padding: 10px 0;
+    background: #040171;
+    color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.form-btn:hover{
+    background-color: #040117;
+}
